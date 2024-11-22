@@ -21,3 +21,6 @@
    .map-container{
      transition: transform 0.3s ease, box-shadow 0.3s ease;  
    }
+   .linksitos:hover{
+     color: #f4e285   !important;
+   }

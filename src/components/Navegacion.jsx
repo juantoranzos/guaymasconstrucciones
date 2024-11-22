@@ -14,10 +14,10 @@ export const Navegacion = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundColor: 'white'}}/>
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="ms-auto">
-            <Nav.Link href="#servicios" className="text-white fs-6 fs-md-5">Servicios</Nav.Link>
-            <Nav.Link href="#historia" className="text-white fs-6 fs-md-5">Historia</Nav.Link>
-            <Nav.Link href="#proyectos" className="text-white fs-6 fs-md-5">Proyectos</Nav.Link>
-            <Nav.Link href="#contacto" className="text-white fs-6 fs-md-5">Contacto</Nav.Link>
+            <Nav.Link href="#servicios" className="text-white fs-6 fs-md-5 linksitos">Servicios</Nav.Link>
+            <Nav.Link href="#historia" className="text-white fs-6 fs-md-5 linksitos">Historia</Nav.Link>
+            <Nav.Link href="#proyectos" className="text-white fs-6 fs-md-5 linksitos">Proyectos</Nav.Link>
+            <Nav.Link href="#contacto" className="text-white fs-6 fs-md-5 linksitos">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

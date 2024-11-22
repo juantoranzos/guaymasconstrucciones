@@ -18,7 +18,7 @@ export const Proyectos = () => {
     
     const [selectedImage, setSelectedImage] = useState(null);
   return (
-    <div className="container py-5">
+    <div className="container py-5" id='projects'>
     <div className="row transition-transform duration-300 hover:scale-105">
       {images.map((image) => (
         <div

@@ -4,7 +4,7 @@ import { Row, Col, Container, Button, Form } from 'react-bootstrap';
 
 export const Contacto = () => {
   return (
-    <section id="contacto" className="d-block" style={{ backgroundColor: '#043055' }}>
+    <section data-aos="fade" id="contacto" className="d-block" style={{ backgroundColor: '#043055' }}>
       <div className="p-3">
         <h2 className="text-center text-white display-5 py-4">Consultas y presupuestos</h2>
         <p className="text-center text-white fs-5 px-3">
@@ -41,7 +41,7 @@ export const Contacto = () => {
               >
                 Formulario de Contacto
               </h2>
-              <Form>
+              <Form data-aos="fade">
                 <Form.Group className="mb-3">
                   <Form.Control
                     type="text"
@@ -62,18 +62,9 @@ export const Contacto = () => {
                 </Form.Group>
                 <Form.Group className="mb-3">
                   <Form.Control
-                    type="text"
-                    placeholder="Empresa"
-                    className="shadow-sm"
-                    style={{ borderRadius: '10px' }}
-                    required
-                  />
-                </Form.Group>
-                <Form.Group className="mb-3">
-                  <Form.Control
                     as="textarea"
                     rows={4}
-                    placeholder="Describa su proyecto"
+                    placeholder="Mensaje"
                     className="shadow-sm"
                     style={{ borderRadius: '10px' }}
                     required

@@ -21,12 +21,12 @@ export const Historia = () => {
 
                     <Row className='p-2 m-2'>
                         <Col xs={ 6 } className="d-flex ">
-                            <ShieldCheck size={ 34 } className="text-dark" />
+                            <ShieldCheck size={ 40 } className="text-dark" />
                             <p className="m-2">Seguridad.</p>
                         </Col>
                         <Col xs={ 6 } className="d-flex ">
-                            <Clock size={34} />
-                            <p className="m-2">18+ años de experiencia.</p>
+                            <Clock size={40} />
+                            <p className="m-2">+18 años</p>
                         </Col>
                     </Row>
                 </Col>

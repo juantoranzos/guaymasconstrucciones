@@ -1,12 +1,13 @@
 import React from 'react';
 import Map from './Map';
 import { Row, Col, Container, Button, Form } from 'react-bootstrap';
+import { Mails, MapPin, Phone, SendHorizontal } from 'lucide-react';
 
 export const Contacto = () => {
   return (
-    <section data-aos="fade" id="contacto" className="d-block" style={{ backgroundColor: '#043055' }}>
+    <section data-aos="fade" id="contacto" className="d-block pb-4"  >
       <div className="p-3">
-        <h2 className="text-center text-white display-5 py-4">Consultas y presupuestos</h2>
+        <h2 className="text-center display-5 py-4 prefooter">Consultas y presupuestos</h2>
         <p className="text-center text-white fs-5 px-3">
           Nuestro servicio es 365 días al año. Contáctanos o solicita un presupuesto utilizando el formulario y te responderemos a la brevedad.
         </p>
@@ -45,7 +46,7 @@ export const Contacto = () => {
                 <Form.Group className="mb-3">
                   <Form.Control
                     type="text"
-                    placeholder="Nombre"
+                    placeholder="Nombre: Escribe tu nombre completo"
                     className="shadow-sm"
                     style={{ borderRadius: '10px' }}
                     required
@@ -54,7 +55,7 @@ export const Contacto = () => {
                 <Form.Group className="mb-3">
                   <Form.Control
                     type="email"
-                    placeholder="Email"
+                    placeholder="Email: Escribe tu direccion de correo electronico"
                     className="shadow-sm"
                     style={{ borderRadius: '10px' }}
                     required
@@ -73,7 +74,8 @@ export const Contacto = () => {
                 <div className="text-center">
                   <Button
                     type="submit"
-                    className="w-100 shadow btn-lg"
+                    data-aos='fade-up'
+                    className="w-50 shadow btn-lg"
                     style={{
                       borderRadius: '10px',
                       backgroundColor: '#043055',
@@ -81,7 +83,7 @@ export const Contacto = () => {
                       fontWeight: '600',
                     }}
                   >
-                    Enviar datos
+                    Enviar <SendHorizontal size={23} />
                   </Button>
                 </div>
               </Form>
@@ -89,6 +91,13 @@ export const Contacto = () => {
           </Col>
         </Row>
       </Container>
+      <div className='text-center  py-4 contact '>
+        <ul className='list-unstyled'>
+          <li><MapPin /> <a>Dr Fernandez, K4139 Santa María, Catamarca</a></li>
+          <li><Mails /> <a>construccionesguaymas@gmail.com</a> </li>
+          <li><Phone /> <a>+54 3838602357</a></li>
+        </ul>
+      </div>
     </section>
   );
 };

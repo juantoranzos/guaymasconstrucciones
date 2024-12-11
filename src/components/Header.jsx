@@ -12,17 +12,17 @@ export const Header = () => {
     <div className="container">
       <div className="d-flex flex-column align-items-center text-center">
         <div className="p-2">
-          <h1 className="display-4 fs-4 fs-md-3 text-center p-2 m-2" data-aos="zoom-in-down">
-            Líderes en Construcción para el Sector Minero.
+          <h1 className="text-center p-2 m-2 picoso" data-aos="zoom-in-down">
+            Líderes en Construcción para el Sector Minero
           </h1>
-          <p className="fs-6 fs-md-5 text-light p-2" data-aos="zoom-in-up">
+          <p className="fs-6 fs-md-5 p-2 subtitulo" data-aos="zoom-in-up">
             Más de 18 años de experiencia y 300 proyectos exitosos en el Noroeste Argentino y zona Precordillerana.
             <br />
            <span className='text-secondary p-3'>📍Santa María, Catamarca, Argentina.</span>
           </p>
         </div>
         <div className="d-flex flex-wrap justify-content-center">
-          <button className="btn btn-light btn-lg" onClick={handleScrollToContact} aria-label="Solicitar Presupuesto">
+          <button className="btn btn-light btn-lg botoncito" onClick={handleScrollToContact} aria-label="Solicitar Presupuesto">
             Solicitar Presupuesto
           </button>
 

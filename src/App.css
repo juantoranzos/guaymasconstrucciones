@@ -1,9 +1,26 @@
 #root{
     @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
      font-family: 'SUSE', sans-serif;
-     font-style: normal;
-     
+     font-style: normal; 
      ;
+   }
+   html{
+    background-color: #043055;
+   }
+   .picoso{
+    color: #FFC107;
+    font-weight: bold;
+    font-size: 37px;
+   }
+   .subtitulo{
+    color: #D3d3d3;
+    font-size: 25px;
+   }
+   .iconoz{
+    color: #555555;
+   }
+   .historia{
+    width: 500px;
    }
    
    .card-img-top:hover {
@@ -14,6 +31,9 @@
      transform: scale(1.05);
      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
    }
+   .prefooter{
+    color: #FFC107;
+   }
    .map-container:hover{
      transform: scale(1.01);
      box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
@@ -22,5 +42,39 @@
      transition: transform 0.3s ease, box-shadow 0.3s ease;  
    }
    .linksitos:hover{
-     color: #f4e285   !important;
+     color: #FFC107   !important;
+   }
+
+   .botoncito {
+    background-color: #4CAF50; /* Color de fondo inicial */
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 12px; /* Bordes redondeados para un diseño más moderno */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+.botoncito:hover {
+    background-color: #FFC107; /* Cambiar a color amarillo */
+    color: black; /* Contraste de texto */
+    transform: scale(1.0) rotate(0.30deg); /* Agrandamiento y ligera rotación */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 10px rgba(255, 193, 7, 0.6); /* Efecto de brillo */
+}
+
+/* Extra: efecto de clic */
+.botoncito:active {
+    transform: scale(1.05) rotate(0deg); /* Reducción ligera al hacer clic */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+
+   #contacto{
+    background-color: #043055;
+   }
+   .contact{
+    color: #FFC107;
    }

@@ -8,7 +8,7 @@ export const Historia = () => {
   return (
     <>
       <Container id='historia' className='shadow rounded mb-4 mt-4 p-5' data-aos="zoom-in-down">
-            <h2 className='text-center display-5 m-4'>Nuestra Historia.</h2>
+            <h2 className='text-center m-4'>Nuestra Historia</h2>
             <Row className="align-items-center">
                 <Col xs={ 12 } md={ 6 } className="text-center">
                     <img src={ logo } alt="Logo" className="img-fluid w-75" />

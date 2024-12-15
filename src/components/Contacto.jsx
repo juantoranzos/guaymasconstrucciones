@@ -25,7 +25,7 @@ export const Contacto = () => {
             className="d-flex justify-content-center align-items-center"
             style={{ minHeight: '400px' }}
           >
-            <div className="w-100" style={{ maxWidth: '600px', height: '100%' }}>
+            <div className="w-100" style={{ maxWidth: '600px', height: '100%' }} data-aos="fade-up">
               <Map />
             </div>
           </Col>
@@ -35,6 +35,7 @@ export const Contacto = () => {
             <div
               className="p-4 shadow-lg w-100"
               style={{ borderRadius: '15px', backgroundColor: '#fff', maxWidth: '500px' }}
+              data-aos="fade-up"
             >
               <h2
                 className="text-center text-dark mb-4"
@@ -42,7 +43,7 @@ export const Contacto = () => {
               >
                 Formulario de Contacto
               </h2>
-              <Form data-aos="fade">
+              <Form>
                 <Form.Group className="mb-3">
                   <Form.Control
                     type="text"
@@ -74,7 +75,6 @@ export const Contacto = () => {
                 <div className="text-center">
                   <Button
                     type="submit"
-                    data-aos='fade-up'
                     className="w-50 shadow btn-lg"
                     style={{
                       borderRadius: '10px',
@@ -91,7 +91,7 @@ export const Contacto = () => {
           </Col>
         </Row>
       </Container>
-      <div className='text-center  py-4 contact '>
+      <div className='text-center  py-4 contact ' data-aos="fade">
         <ul className='list-unstyled'>
           <li><MapPin /> <a>Dr Fernandez, K4139 Santa María, Catamarca</a></li>
           <li><Mails /> <a>construccionesguaymas@gmail.com</a> </li>

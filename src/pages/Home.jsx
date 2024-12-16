@@ -6,6 +6,7 @@ import { Historia } from '../components/Historia'
 import { Proyectos } from '../components/Proyectos'
 import { Contacto } from '../components/Contacto'
 import { Footer } from '../components/Footer'
+import { Confian } from '../components/Confian'
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
     <Servicios />
     <Historia />
     <Proyectos />
+    <Confian />
     <Contacto />
     <Footer />
     </>

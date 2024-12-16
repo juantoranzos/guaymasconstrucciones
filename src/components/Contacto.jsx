@@ -92,7 +92,7 @@ export const Contacto = () => {
         </Row>
       </Container>
       <div className='text-center  py-4 contact ' data-aos="fade">
-        <ul className='list-unstyled'>
+        <ul className='list-unstyled p-2 m-2'>
           <li><MapPin /> <a>Dr Fernandez, K4139 Santa María, Catamarca</a></li>
           <li><Mails /> <a>construccionesguaymas@gmail.com</a> </li>
           <li><Phone /> <a>+54 3838602357</a></li>

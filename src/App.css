@@ -78,3 +78,11 @@
    .contact{
     color: #FFC107;
    }
+   .confian{
+    width: 250px;
+    height: 100px;
+    object-fit: cover;
+   }
+   .amarillo{
+    color: #FFC107;
+   }

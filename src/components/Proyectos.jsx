@@ -4,15 +4,21 @@ import img from '../img/todaslasmaquinas.jpeg'
 import img2 from '../img/nieve2.jpeg'
 import img3 from '../img/livent.jpeg'
 import img4 from '../img/camioncargado.jpeg'
-import img5 from '../img/top-banner-img.jpg'
-import img6 from '../img/ingguay.jpeg'
+import img5 from '../img/espaciosdetrabajo.webp'
+import img6 from '../img/minacieloabierto.webp'
+import img7 from '../img/maquinascargando.webp'
+import img8 from '../img/personal2.webp'
+import img9 from '../img/personal.webp'
 const images = [
     { id: 1, src: img , alt: 'Proyecto 1', title: 'Vehiculos' },
     { id: 2, src: img2, alt: 'Proyecto 2', title: 'Transporte' },
     { id: 3, src: img3 , alt: 'Proyecto 3', title: 'Minas' },
     { id: 4, src: img4, alt: 'Proyecto 4', title: 'Transporte Pesado' },
-    { id: 5, src: img5, alt: 'Proyecto 5', title: 'Obras Civiles' },
+    { id: 5, src: img5, alt: 'Proyecto 5', title: 'Obras en la montaña' },
     { id: 6, src: img6, alt: 'Proyecto 6', title: 'Espacios de Trabajo' },
+    { id: 7, src: img7, alt: 'Proyecto 7', title: 'Cargas Pesadas' },
+    { id: 8, src: img9, alt: 'Proyecto 8', title: 'Personal' },
+    { id: 9, src: img8, alt: 'Proyecto 9', title: 'Personal Altamente Calificado' },
   ];
 export const Proyectos = () => {
     

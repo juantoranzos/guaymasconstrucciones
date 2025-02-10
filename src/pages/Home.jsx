@@ -7,6 +7,7 @@ import { Proyectos } from '../components/Proyectos'
 import { Contacto } from '../components/Contacto'
 import { Footer } from '../components/Footer'
 import { Confian } from '../components/Confian'
+import { WhatsappLink } from '../components/WhatsappLink'
 
 export const Home = () => {
   return (
@@ -19,6 +20,7 @@ export const Home = () => {
     <Confian />
     <Contacto />
     <Footer />
+    <WhatsappLink />
     </>
   )
 }

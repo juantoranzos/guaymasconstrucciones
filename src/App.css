@@ -2,13 +2,12 @@
     @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
      font-family: 'SUSE', sans-serif;
      font-style: normal; 
-     ;
    }
    html{
     background-color: #043055;
    }
    .picoso{
-    color: #FFC107;
+    color: #74ceff;
     font-weight: bold;
     font-size: 37px;
    }
@@ -32,7 +31,7 @@
      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
    }
    .prefooter{
-    color: #FFC107;
+    color: #74ceff;
    }
    .map-container:hover{
      transform: scale(1.01);
@@ -42,7 +41,7 @@
      transition: transform 0.3s ease, box-shadow 0.3s ease;  
    }
    .linksitos:hover{
-     color: #FFC107   !important;
+     color: #74ceff   !important;
    }
 
    .botoncito {
@@ -58,7 +57,7 @@
 }
 
 .botoncito:hover {
-    background-color: #FFC107; /* Cambiar a color amarillo */
+    background-color: #74ceff; /* Cambiar a color amarillo */
     color: black; /* Contraste de texto */
     transform: scale(1.0) rotate(0.30deg); /* Agrandamiento y ligera rotación */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 10px rgba(255, 193, 7, 0.6); /* Efecto de brillo */
@@ -76,7 +75,7 @@
     background-color: #043055;
    }
    .contact{
-    color: #FFC107;
+    color: #74ceff;
    }
    .confian{
     width: 250px;
@@ -84,7 +83,7 @@
     object-fit: cover;
    }
    .amarillo{
-    color: #FFC107;
+    color: #74ceff;
    }
    .whatsapp-btn {
     position: fixed;
@@ -103,4 +102,9 @@
     box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
     cursor: pointer;
   }
-  
+  #servicios{
+    background-color:#def0ff;
+  }
+  .contenedor{
+    background-color: #def0ff;
+  }

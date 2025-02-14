@@ -4,7 +4,9 @@ import { HardHat, Truck, Mountain, Shield, MonitorCog, Building2, MountainSnow }
 export const Servicios = () => {
   return (
     <>
-    <Container id="servicios" className="py-12 md:py-24 lg:py-32">
+    <div className=''>
+
+    <Container id="" className="">
       <div className="px-4 md:px-6 lg:px-8 mx-auto text-center">
         <h2 className=" text-3xl font-bold p-3 m-3 amarillo ">Nuestros Servicios</h2>
         <Row>
@@ -65,6 +67,7 @@ export const Servicios = () => {
         </Row>
       </div>
     </Container>
+    </div>
   </>
   )
 }

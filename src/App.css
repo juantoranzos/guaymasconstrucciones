@@ -19,7 +19,17 @@
     color: #555555;
    }
    .historia{
-    width: 500px;
+    color: #74ceff;
+    width: 100%;
+    max-width: 1280px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   .amarillo{
+    color: #74ceff;
    }
    
    .card-img-top:hover {
@@ -77,13 +87,13 @@
    .contact{
     color: #74ceff;
    }
+   .empresas{
+    font-size: 20px;
+   }
    .confian{
     width: 250px;
     height: 100px;
     object-fit: cover;
-   }
-   .amarillo{
-    color: #74ceff;
    }
    .whatsapp-btn {
     position: fixed;
@@ -102,9 +112,7 @@
     box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
     cursor: pointer;
   }
-  #servicios{
-    background-color:#def0ff;
-  }
   .contenedor{
     background-color: #def0ff;
   }
+  

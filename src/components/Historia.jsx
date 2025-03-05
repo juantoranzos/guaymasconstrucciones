@@ -7,9 +7,9 @@ import { Row, Col, Container } from 'react-bootstrap'
 export const Historia = () => {
   return (
     <>
-    <div className=''>
+    <div className='historia' id="historia" data-aos="fade" >
 
-      <Container id='historia' className='shadow rounded mb-4 p-5' data-aos="zoom-in-down">
+      
             <h2 className='text-center p-3 m-3 amarillo'>Nuestra Historia</h2>
             <Row className="align-items-center">
                 <Col xs={ 12 } md={ 6 } className="text-center">
@@ -23,7 +23,7 @@ export const Historia = () => {
 
                     <Row className='p-2 m-2'>
                         <Col xs={ 6 } className="d-flex ">
-                            <ShieldCheck size={ 40 } className="text-dark" />
+                            <ShieldCheck size={ 40 } />
                             <p className="m-2">Seguridad.</p>
                         </Col>
                         <Col xs={ 6 } className="d-flex ">
@@ -33,7 +33,7 @@ export const Historia = () => {
                     </Row>
                 </Col>
             </Row>
-        </Container>
+    
     </div>
     </>
   )

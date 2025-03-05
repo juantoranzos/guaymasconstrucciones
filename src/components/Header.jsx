@@ -16,7 +16,7 @@ export const Header = () => {
       <div className="container">
         <div className="d-flex flex-column align-items-center text-center">
           <div className="p-2">
-            <BlurText text='Líderes en construcción para la minería' delay={150}
+            <BlurText text='Líderes en construcción para la minería' delay={90}
               animateBy="words"
               direction="top"
               onAnimationComplete={handleAnimationComplete}
@@ -27,7 +27,7 @@ export const Header = () => {
               className='subtitulo'
               onAnimationComplete={handleAnimationComplete} >
             </BlurText>
-            <BlurText text='📍Santa María, Catamarca' delay={150}
+            <BlurText text='📍Santa María, Catamarca' delay={90}
               className='subtitulo'
               animateBy="words"
               direction="top"

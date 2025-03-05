@@ -95,7 +95,7 @@ export const Contacto = () => {
         <ul className='list-unstyled p-2 m-2'>
           <li><MapPin /> <a>Dr Fernandez, K4139 Santa María, Catamarca</a></li>
           <li><Mails /> <a>construccionesguaymas@gmail.com</a> </li>
-          <li><Phone /> <a>+54 3838602357</a></li>
+          <li><Phone /> <a>+54 3838602867</a></li>
         </ul>
       </div>
     </section>

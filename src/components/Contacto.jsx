@@ -15,7 +15,7 @@ export const Contacto = () => {
       <Container
         fluid
         className="d-flex align-items-center px-3 py-4"
-        style={{ backgroundColor: '#043055' }}
+        style={{ backgroundColor: '#0b0f2c' }}
       >
         <Row className="w-100 gy-4">
           {/* Mapa */}
@@ -78,7 +78,7 @@ export const Contacto = () => {
                     className="w-50 shadow btn-lg"
                     style={{
                       borderRadius: '10px',
-                      backgroundColor: '#043055',
+                      backgroundColor: '#0b0f2c',
                       color: '#fff',
                       fontWeight: '600',
                     }}

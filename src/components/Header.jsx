@@ -12,7 +12,7 @@ export const Header = () => {
     console.log('Animation completed!');
   };
   return (
-    <section className="text-white p-3" style={{ backgroundColor: '#043055' }}>
+    <section className="text-white p-3" style={{ backgroundColor: '#0b0f2c' }}>
       <div className="container">
         <div className="d-flex flex-column align-items-center text-center">
           <div className="p-2">

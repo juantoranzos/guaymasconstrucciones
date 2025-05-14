@@ -6,7 +6,7 @@ import { BsBuilding } from 'react-icons/bs';
 
 export const Navegacion = () => {
   return (
-    <Navbar expand="lg" style={{ backgroundColor: '#043055' }} className="py-3 ">
+    <Navbar expand="lg" style={{ backgroundColor: '#0b0f2c' }} className="py-3 ">
       <Container>
         <Navbar.Brand href="#" className="d-flex align-items-center text-white">
           <BsBuilding className="fs-5 text-white" size={35} /> Construcciones Civiles

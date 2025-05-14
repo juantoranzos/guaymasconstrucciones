@@ -10,7 +10,7 @@ export const Historia = () => {
     <div className='historia' id="historia" data-aos="fade" >
 
       
-            <h2 className='text-center p-3 m-3 amarillo'>Nuestra Historia</h2>
+            <h2 className='text-center p-3 m-3 amarillo'><span style={{color: "#0b0f2c"}}>Nuestra </span>Historia</h2>
             <Row className="align-items-center">
                 <Col xs={ 12 } md={ 6 } className="text-center">
                     <img src={ logo } alt="Logo" className="img-fluid w-75" />
@@ -24,11 +24,11 @@ export const Historia = () => {
                     <Row className='p-2 m-2'>
                         <Col xs={ 6 } className="d-flex ">
                             <ShieldCheck size={ 40 } />
-                            <p className="m-2">Seguridad.</p>
+                            <p className="m-2" style={{color:"#0b0f2c"}}>Seguridad.</p>
                         </Col>
                         <Col xs={ 6 } className="d-flex ">
                             <Clock size={40} />
-                            <p className="m-2">+18 años</p>
+                            <p className="m-2" style={{color:"#0b0f2c"}}>+18 años</p>
                         </Col>
                     </Row>
                 </Col>

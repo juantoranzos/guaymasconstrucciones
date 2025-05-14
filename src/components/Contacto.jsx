@@ -1,4 +1,3 @@
-import React from 'react';
 import Map from './Map';
 import { Row, Col, Container, Button, Form } from 'react-bootstrap';
 import { Mails, MapPin, Phone, SendHorizontal } from 'lucide-react';
@@ -38,35 +37,38 @@ export const Contacto = () => {
               data-aos="fade-up"
             >
               <h2
-                className="text-center text-dark mb-4"
-                style={{ fontWeight: '600', fontSize: '1.8rem' }}
+                className="text-center mb-4"
+                style={{ fontWeight: '600', fontSize: '1.8rem', color: '#0b0f2c' }}
               >
                 Formulario de Contacto
               </h2>
               <Form>
                 <Form.Group className="mb-3">
+                  <Form.Label style={{color:"#0b0f2c"}}>Nombre Completo</Form.Label>
                   <Form.Control
                     type="text"
-                    placeholder="Nombre: Escribe tu nombre completo"
+                    placeholder="Juan Perez"
                     className="shadow-sm"
                     style={{ borderRadius: '10px' }}
                     required
                   />
                 </Form.Group>
+                <Form.Label style={{color:"#0b0f2c"}}>Email</Form.Label>
                 <Form.Group className="mb-3">
                   <Form.Control
                     type="email"
-                    placeholder="Email: Escribe tu direccion de correo electronico"
+                    placeholder="contacto@gmail.com"
                     className="shadow-sm"
                     style={{ borderRadius: '10px' }}
                     required
                   />
                 </Form.Group>
+                <Form.Label style={{color:"#0b0f2c"}}>Tu consulta</Form.Label>
                 <Form.Group className="mb-3">
                   <Form.Control
                     as="textarea"
                     rows={4}
-                    placeholder="Mensaje"
+                    placeholder="Escribe aquí tu consulta..."
                     className="shadow-sm"
                     style={{ borderRadius: '10px' }}
                     required

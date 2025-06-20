@@ -8,19 +8,22 @@ import { Contacto } from '../components/Contacto'
 import { Footer } from '../components/Footer'
 import { Confian } from '../components/Confian'
 import { WhatsappLink } from '../components/WhatsappLink'
+import GaleriaEquipamiento  from '../components/GaleriaEquipamiento'
+
 
 export const Home = () => {
   return (
     <>
-    <Navegacion />
-    <Header />
-    <Servicios />
-    <Historia />
-    <Proyectos />
-    <Confian />
-    <Contacto />
-    <Footer />
-    <WhatsappLink />
+      <Navegacion />
+      <Header />
+      <Servicios />
+      <Historia />
+      <Proyectos /> 
+      <GaleriaEquipamiento />
+      <Confian />
+      <Contacto />
+      <Footer />
+      <WhatsappLink />
     </>
   )
 }

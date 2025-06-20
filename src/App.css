@@ -1,118 +1,147 @@
-#root{
-    @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
-     font-family: 'SUSE', sans-serif;
-     font-style: normal; 
-   }
-   html{
-    background-color: #0b0f2c;
-   }
-   .picoso{
-    color: #74ceff;
-    font-weight: bold;
-    font-size: 37px;
-   }
-   .subtitulo{
-    color: #D3d3d3;
-    font-size: 25px;
-   }
-   .iconoz{
-    color: #0b0f2c;
-   }
-   .historia{
-    color: #74ceff;
-    width: 100%;
-    max-width: 1280px; /* Adjust as needed */
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   }
-   .amarillo{
-    color: #74ceff;
-   }
-   
-   .card-img-top:hover {
-     opacity: 0.8;
-   }
-   
-   .card:hover {
-     transform: scale(1.05);
-     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-   }
-   .prefooter{
-    color: #74ceff;
-   }
-   .map-container:hover{
-     transform: scale(1.01);
-     box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
-   }
-   .map-container{
-     transition: transform 0.3s ease, box-shadow 0.3s ease;  
-   }
-   .linksitos:hover{
-     color: #74ceff   !important;
-   }
+#root {
+  @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  background-color: #0b0f2c;
+}
+.picoso {
+  color: #74ceff;
+  font-weight: bold;
+  font-size: 37px;
+}
+.subtitulo {
+  color: #d3d3d3;
+  font-size: 25px;
+}
+.iconoz {
+  color: #0b0f2c;
+}
+.historia {
+  color: #74ceff;
+  width: 100%;
+  max-width: 1280px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.amarillo {
+  color: #74ceff;
+}
 
-   .botoncito {
-    background-color: #4CAF50; /* Color de fondo inicial */
-    color: white;
-    border: none;
-    padding: 15px 20px;
-    font-size: 16px;
-    border-radius: 12px; /* Bordes redondeados para un diseño más moderno */
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+.card-img-top:hover {
+  opacity: 0.8;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+.prefooter {
+  color: #74ceff;
+}
+.map-container:hover {
+  transform: scale(1.01);
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+.map-container {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.linksitos:hover {
+  color: #74ceff !important;
+}
+
+.botoncito {
+  background-color: #4caf50; /* Color de fondo inicial */
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 12px; /* Bordes redondeados para un diseño más moderno */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
 }
 
 .botoncito:hover {
-    background-color: #74ceff; /* Cambiar a color amarillo */
-    color: black; /* Contraste de texto */
-    transform: scale(1.0) rotate(0.30deg); /* Agrandamiento y ligera rotación */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 10px rgba(255, 193, 7, 0.6); /* Efecto de brillo */
+  background-color: #74ceff; /* Cambiar a color amarillo */
+  color: black; /* Contraste de texto */
+  transform: scale(1) rotate(0.3deg); /* Agrandamiento y ligera rotación */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 10px rgba(255, 193, 7, 0.6); /* Efecto de brillo */
 }
 
 /* Extra: efecto de clic */
 .botoncito:active {
-    transform: scale(1.05) rotate(0deg); /* Reducción ligera al hacer clic */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05) rotate(0deg); /* Reducción ligera al hacer clic */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-
-
-   #contacto{
-    background-color: #0b0f2c;
-   }
-   .contact{
-    color: #74ceff;
-   }
-   .empresas{
-    font-size: 20px;
-   }
-   .confian{
-    width: 250px;
-    height: 100px;
-    object-fit: cover;
-   }
-   .whatsapp-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-    background-color: #25D366;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    font-size: 24px;
-    text-align: center;
-    line-height: 60px;
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
-    cursor: pointer;
-  }
-  .contenedor{
-    background-color: #def0ff;
-  }
-  
+#contacto {
+  background-color: #0b0f2c;
+}
+.contact {
+  color: #74ceff;
+}
+.empresas {
+  font-size: 20px;
+}
+.confian {
+  width: 250px;
+  height: 100px;
+  object-fit: cover;
+}
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 60px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.contenedor {
+  background-color: #def0ff;
+}
+/*galeria bento*/
+.titulo-equipamiento{
+  background-color: #0b0f2c;
+  color: #74ceff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: #0b0f2c 0px 0px 10px;
+}
+.img-principal-equipamiento {
+  width: 100%;
+  height: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: #0b0f2c 0px 0px 10px;
+}
+.img-equipamiento {
+ width: 100%;
+ object-fit: cover;
+ border-radius: 10px;
+}
+.text-equipamiento {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.banda{
+  background-color: #0b0f2c;
+  color: #74ceff;
+}

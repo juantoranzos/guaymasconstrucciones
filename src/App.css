@@ -19,6 +19,32 @@ html {
 .iconoz {
   color: #0b0f2c;
 }
+/* Navegacion.css */
+
+.navbar-toggler {
+  border: none !important;
+  background: transparent !important;
+}
+.navbar-toggler-icon {
+  background-image: none;
+  /* Usá un icono propio o cambia el color así: */
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  color: #fff !important;   /* blanco para que se vea bien */
+  font-size: 2rem;          /* agranda el icono */
+}
+.img-logo-navbar {
+  width: 50px;      /* tamaño pequeño */
+  height: 50px;     /* igual para mantener proporción */
+  object-fit: cover; /* recorta bien la imagen si no es cuadrada */
+  border: 2px solid #fff; /* opcional, le da un borde blanco */
+}
+
+
 .historia {
   color: #74ceff;
   width: 100%;

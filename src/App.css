@@ -56,7 +56,7 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .amarillo {
-  color: #74ceff;
+  color: #0b0f2c;
 }
 
 .card-img-top:hover {
@@ -170,4 +170,37 @@ html {
 .banda{
   background-color: #0b0f2c;
   color: #74ceff;
+}
+/* --- Card general --- */
+.card {
+  border-radius: 0.75rem;          /* esquinas suavizadas */
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+  overflow: hidden;               /* recorta lo que se salga (imagen) */
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+/* opcional: leve “lift” de la card al hacer hover */
+.card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(0,0,0,.15);
+}
+
+/* --- Imagen --- */
+.card-img-top {
+  width: 100%;
+  height: 260px;                  /* fija alto para que el zoom no cambie el layout */
+  object-fit: cover;              /* recorta la imagen sin deformarla */
+  transition: transform .80s ease;
+}
+
+/* zoom solo a la imagen cuando se pasa el mouse por la card */
+.card:hover .card-img-top {
+  transform: scale(1.06);          /* ajusta el nivel de zoom a gusto */
+}
+
+/* --- Badges u otros overlays --- */
+.badge {
+  font-size: 0.75rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 0.5rem;
 }

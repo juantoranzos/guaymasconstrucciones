@@ -10,7 +10,7 @@ export const Historia = () => {
     <div className='historia' id="historia" data-aos="fade" >
 
       
-            <h2 className='text-center p-3 m-3 amarillo display-6'><span style={{color: "#0b0f2c"}}>Nuestra </span>Historia</h2>
+            <h2 className='text-center p-3 m-3 amarillo display-6'>Nuestra Historia</h2>
             <Row className="align-items-center">
                 <Col xs={ 12 } md={ 6 } className="text-center">
                     <img src={ logo } alt="Logo" className="img-fluid w-75" />

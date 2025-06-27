@@ -1,17 +1,8 @@
-import React from "react";
-import { useState } from "react";
-import img from "../img/todaslasmaquinas.jpeg";
-import img2 from "../img/nieve2.jpeg";
-import img3 from "../img/livent.jpeg";
-import img4 from "../img/camioncargado.jpeg";
 import img5 from "../img/panelsolar.webp";
-import img6 from "../img/minacieloabierto.webp";
-import img7 from "../img/maquinascargando.webp";
 import img8 from "../img/personal2.webp";
 import img9 from "../img/personal.webp";
 import proyecto1 from "../../public/proyectos1.webp"
 import proyecto2 from "../../public/proyectos2.webp"
-
 import proyecto3 from "../../public/proyectos3.webp"
 
 import { IoLocationOutline } from "react-icons/io5";
@@ -29,14 +20,14 @@ export const Proyectos = () => {
   ];
   return (
     <div className="container py-5 mt-5 p-2" id="projects">
-      <h2 className="text-center fw-bold" data-aos="fade-up">Nuestros proyectos</h2>
+      <h2 className="text-center amarillo display-6" data-aos="fade-up">Nuestros proyectos</h2>
       <p className="text-center fs-5 mt-5 mb-5" style={{ color: "gray" }} data-aos="fade-up">
         Cientos de proyectos finalizados con total exito en el sector minero del
         Noroeste Argentino y la región Precordillerana. Cada proyecto refleja
         nuestro compromiso con la excelencia y la innovación.
       </p>
       <div className="row fs-5">
-        <div className="col-md-4">
+        <div className="col-sm-6 col-md-6 col-lg-4">
           <div className="card mb-4 position-relative" data-aos="fade-up">
             <span className="badge bg-success position-absolute top-0 end-0 m-2">
               Completado
@@ -66,7 +57,7 @@ export const Proyectos = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-sm-6 col-md-6 col-lg-4">
           <div className="card mb-4 position-relative" data-aos="fade-up">
             <span className="badge bg-success position-absolute top-0 end-0 m-2">
               Completado
@@ -96,7 +87,7 @@ export const Proyectos = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-sm-6 col-md-6 col-lg-4">
           <div className="card mb-4 position-relative" data-aos="fade-up">
             <span className="badge bg-success position-absolute top-0 end-0 m-2">
               Completado
@@ -127,7 +118,7 @@ export const Proyectos = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-sm-6 col-md-6 col-lg-4">
           <div className="card mb-4 position-relative" data-aos="fade-up">
             <span className="badge bg-success position-absolute top-0 end-0 m-2">
               Completado
@@ -159,7 +150,7 @@ export const Proyectos = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-sm-6 col-md-6 col-lg-4">
           <div className="card mb-4 position-relative" data-aos="fade-up">
             <span className="badge bg-success position-absolute top-0 end-0 m-2">
               Completado
@@ -189,7 +180,7 @@ export const Proyectos = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-sm-6 col-md-6 col-lg-4">
           <div className="card mb-4 position-relative" data-aos="fade-up">
             <span className="badge bg-success position-absolute top-0 end-0 m-2">
               Completado
@@ -221,9 +212,9 @@ export const Proyectos = () => {
           </div>
         </div>
       </div>
-      <section className="banda container d-flex justify-content-between flex-wrap text-center gap-4 p-3 mt-5 rounded font-weight-bold fs-4">
+      <section className="banda container d-flex justify-content-between flex-wrap text-center gap-4 p-3 mt-5 rounded font-weight-bold fs-4" data-aos="fade-up">
         {stats.map((stat, index) => (
-          <span key={index} className="flex-fill">
+          <span key={index} className="flex-fill" >
             <strong className="count-up-text">
               <CountUp from={0} to={stat.value} duration={1} separator="," />
               {stat.suffix}
@@ -233,13 +224,13 @@ export const Proyectos = () => {
           </span>
         ))}
       </section>
-      <section className="contacto-proyectos text-center p-5 mt-5 rounded ">
+      <section className="contacto-proyectos text-center p-5 mt-5 rounded " data-aos="fade">
         <h2 className="text-center">¿Tienes un proyecto en mente?</h2>
         <p className="text-center fs-5 mt-5 mb-5" style={{ color: "gray" }}>
           Contáctanos para una consulta gratuita y descubre cómo podemos hacer
           realidad tu proyecto minero con la más alta calidad y eficiencia.
         </p>
-        <a href="#contacto" className="botoncito btn btn-lg">
+        <a href="#contacto" className="botoncito btn btn-lg" data-aos="fade-up">
           Solicitar Presupuesto
         </a>
       </section>

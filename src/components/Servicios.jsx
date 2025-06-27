@@ -10,7 +10,7 @@ export const Servicios = () => {
 
     <Container id="servicios" className="">
       <div className="px-4 md:px-6 lg:px-8 mx-auto text-center">
-        <h2 className=" display-6 font-bold p-3 m-3 amarillo "> <span style={{color: "#0b0f2c"}}> Nuestros</span> Servicios</h2>
+        <h2 className=" display-6 font-bold p-3 m-3 amarillo ">  Nuestros Servicios</h2>
         <Row>
           <Col xs={12} md={6} lg={6}>
             <Card className="mb-4 shadow card" data-aos="fade" timeout={1500}>

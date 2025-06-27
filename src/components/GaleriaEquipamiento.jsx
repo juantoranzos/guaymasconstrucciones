@@ -26,7 +26,7 @@ const GaleriaEquipamiento = () => {
       const [selectedImage, setSelectedImage] = useState(null);
   return (
     <div className="container my-4" id="equipamiento">
-       <h2 className='text-center p-3 m-3 amarillo' data-aos="fade"><span style={{color: "#0b0f2c"}}>Nuestro </span>Equipamiento</h2>
+       <h2 className='text-center p-3 m-3 amarillo display-6' data-aos="fade">Nuestro Equipamiento</h2>
       {/* Encabezado */}
       <div className="titulo-equipamiento p-3 rounded text-center mb-3" data-aos="fade-up">
         En Construcciones Civiles contamos con un equipamiento de última
